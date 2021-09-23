@@ -33,7 +33,7 @@ namespace UnoSquare_Maintenance_
         }
 
         #region Google Locators
-        By GoogleSearchBar = By.XPath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input");  
+        By GoogleSearchBar = By.Name("q");  
         By GoogleSearIcon = By.Name("btnK");
         By UnoSquareGoogleResult = By.PartialLinkText("Transformation");
         
